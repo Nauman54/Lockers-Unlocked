@@ -180,12 +180,6 @@ Developed collaboratively by the Lockers Unlocked development team.
 
 ---
 
-## 📄 License
-
-This project is intended for educational and portfolio purposes. Add an appropriate license if open-sourcing for public contributions.
-
----
-
 ## ⭐ Support
 
 If you found this project useful, consider giving it a ⭐ on GitHub.

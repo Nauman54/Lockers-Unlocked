@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": "." /* Base directory to resolve non-absolute module names. */,
+    "types": ["@types/babel__core"],
+    "paths": {
+      "*": ["src/*"],
+      "@components": ["./src/components/index"],
+      "@components/*": ["./src/components/*"],
+      "@containers": ["./src/containers"],
+      "@containers/*": ["./src/containers/*"],
+      "@hoc": ["./src/hoc"],
+      "@hoc/*": ["./src/hoc/*"],
+      "@hooks": ["./src/hooks"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@context": ["./src/context"],
+      "@context/*": ["./src/context/*"],
+      "@services": ["./src/services"],
+      "@services/*": ["./src/services/*"],
+      "@Icon": ["./src/assets/icons/icons"],
+      "@Images": ["./src/assets/images/images"],
+      "@types": ["./src/containers/types"],
+      "@utils": ["./src/utils/*"]
+    },
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["src", "./react-modal.d.ts", "./css.d.ts", ".eslintrc.json"],
+  "exclude": ["node_modules", "functions"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
